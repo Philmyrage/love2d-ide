@@ -8,9 +8,7 @@ var project_path = Global.project_path
 
 func _ready() -> void:
 	update_dir(project_path)
-
-
-
+	
 func recursive_path(path, parent):
 	var dir = open_dir(path)
 	
